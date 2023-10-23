@@ -20,20 +20,21 @@ This is a simple executable program written in Haskell that checks if a given nu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/even-number-checker.git
+   git clone https://github.com/Sirbeerus/EvenNumberChecker.git
 
+2. Change directory to the project folder:
 
-1. Change directory to the project folder:
+cd EvenNumberChecker
 
-cd even-number-checker
+3. `nix develop --impure`
 
-2. Build the project using Cabal:
+4. Build the project using Cabal:
 
-cabal build
+`cabal build`
 
-3. Run the program:
+5. Run the program:
 
-cabal run EvenNumberChecker
+`cabal run` EvenNumberChecker
 
 
 
